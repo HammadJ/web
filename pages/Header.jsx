@@ -1,48 +1,56 @@
-import React from 'react'
+import React from 'react';
+import Link from 'next/link';
 
 const Header = () => {
   return (
     <header id="header" className="header fixed-top d-flex align-items-center">
-					<div className="container-fluid d-flex align-items-center justify-content-between">
-						<a
-							href="/"
-							className="logo d-flex align-items-center me-auto me-xl-0"
-						>
-							{/* Uncomment the line below if you also wish to use an image logo */}
-							{/* <img src="assets/img/logo.png" alt=""> */}
-							<h1>Append</h1>
-							<span>.</span>
-						</a>
-						{/* Nav Menu */}
-						<nav id="navmenu" className="navmenu">
-							<ul>
-								<li>
-									<a href="/#hero" className="active">
-										Home
-									</a>
-								</li>
-								<li>
-									<a href="/#about">About</a>
-								</li>
-								<li>
-									<a href="/#services">Services</a>
-								</li>
-								<li>
-									<a href="/#portfolio">Portfolio</a>
-								</li>
-								<li>
-									<a href="/#contact">Contact</a>
-								</li>
-							</ul>
-							<i className="mobile-nav-toggle d-xl-none bi bi-list" />
-						</nav>
-						{/* End Nav Menu */}
-						<a className="btn-getstarted" href="index.html#about">
-							Get Started
-						</a>
-					</div>
-				</header>
-  )
-}
+      <div className="container-fluid d-flex align-items-center justify-content-between">
+        <Link href="/">
+          <a className="logo d-flex align-items-center me-auto me-xl-0">
+            {/* Uncomment the line below if you also wish to use an image logo */}
+            {/* <img src="assets/img/logo.png" alt=""> */}
+            <h1>Append</h1>
+            <span>.</span>
+          </a>
+        </Link>
+        {/* Nav Menu */}
+        <nav id="navmenu" className="navmenu">
+          <ul>
+            <li>
+              <Link href="/#hero">
+                <a className="active">Home</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/#about">
+                <a>About</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/#services">
+                <a>Services</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/#portfolio">
+                <a>Portfolio</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/#contact">
+                <a>Contact</a>
+              </Link>
+            </li>
+          </ul>
+          <i className="mobile-nav-toggle d-xl-none bi bi-list" />
+        </nav>
+        {/* End Nav Menu */}
+        <Link href="/#about">
+          <a className="btn-getstarted">Get Started</a>
+        </Link>
+      </div>
+    </header>
+  );
+};
 
-export default Header
+export default Header;

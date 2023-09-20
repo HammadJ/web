@@ -12,6 +12,7 @@ const Portfolio = () => {
     { id: 3, category: 'Web', title: 'Branding 1', image: 'image3.jpg', description: 'Lorem ipsum, dolor sit' },
     // Add more portfolio items here
   ];
+  
 
   // Filter portfolio items based on the active tab
   const filteredItems = activeTab === 'All' ? portfolioItems : portfolioItems.filter(item => item.category === activeTab);
