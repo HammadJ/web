@@ -1,20 +1,21 @@
 import React, { useState } from 'react';
+import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
+
 
 const Portfolio = () => {
-  // Define state to manage active tab
   const [activeTab, setActiveTab] = useState('All');
-
-  // Define data for tabs and portfolio items (you can fetch this data from an API or database)
-  const tabs = ['All', 'App', 'Card', 'Web'];
+  const tabs = ['All', 'Architecture', 'Interior', 'CONSTRUCTION', 'FURNITURE'];
   const portfolioItems = [
-    { id: 1, category: 'App', title: 'App 1', image: 'image1.jpg', description: 'Lorem ipsum, dolor sit' },
-    { id: 2, category: 'Card', title: 'Product 1', image: 'image2.jpg', description: 'Lorem ipsum, dolor sit' },
-    { id: 3, category: 'Web', title: 'Branding 1', image: 'image3.jpg', description: 'Lorem ipsum, dolor sit' },
+    { id: 1, category: 'Architecture', title: 'name', image: 'ARCHITECTURE/img1.jpg', description: 'Lorem ipsum, dolor sit' },
+    { id: 2, category: 'Architecture', title: 'name2', image: 'ARCHITECTURE/img2.jpg', description: 'Lorem ipsum, dolor sit' },
+    { id: 3, category: 'Interior', title: 'Product 1', image: 'INTERIOR/PROJECT_1_FAISALABD/IMG-20230910-WA0032.jpg', description: 'Lorem ipsum, dolor sit' },
+    { id: 4, category: 'Interior', title: 'Product 1', image: 'img1.jpg', description: 'Lorem ipsum, dolor sit' },
+    { id: 5, category: 'Interior', title: 'Product 1', image: 'img1.jpg', description: 'Lorem ipsum, dolor sit' },
+    { id: 6, category: 'CONSTRUCTION', title: 'Branding 1', image: 'image3.jpg', description: 'Lorem ipsum, dolor sit' },
+    { id: 7, category: 'FURNITURE', title: 'Branding 1', image: 'image3.jpg', description: 'Lorem ipsum, dolor sit' },
     // Add more portfolio items here
   ];
-  
 
-  // Filter portfolio items based on the active tab
   const filteredItems = activeTab === 'All' ? portfolioItems : portfolioItems.filter(item => item.category === activeTab);
 
   return (
@@ -28,51 +29,49 @@ const Portfolio = () => {
       </div>
       {/* End Section Title */}
       <div className="container">
-        <div
-          className="isotope-layout"
-          data-default-filter="*"
-          data-layout="masonry"
-          data-sort="original-order"
-        >
-          <ul
-            className="portfolio-filters isotope-filters"
-            data-aos="fade-up"
-            data-aos-delay={100}
-          >
-            {/* Dynamic rendering of filter tabs */}
-            {tabs.map(tab => (
-              <li
-                key={tab}
-                onClick={() => setActiveTab(tab)}
-                className={`filter ${activeTab === tab ? 'filter-active' : ''}`}
-                data-filter={tab === 'All' ? '*' : `.${tab.toLowerCase()}`}
-              >
-                {tab}
-              </li>
-            ))}
-          </ul>
-          {/* End Portfolio Filters */}
-          <div
-            className="row gy-4 isotope-container"
-            data-aos="fade-up"
-            data-aos-delay={200}
-          >
-            {/* Dynamic rendering of portfolio items */}
+
+
+
+        <ul className="portfolio-filters" data-layout="masonry" data-aos="fade-up" data-aos-delay={100}>
+          {tabs.map(tab => (
+            <li
+              key={tab}
+              onClick={() => setActiveTab(tab)}
+              className={`filter ${activeTab === tab ? 'filter-active' : ''}`}
+            >
+              {tab}
+            </li>
+          ))}
+        </ul>
+        {/* End Portfolio Filters */}
+
+        <div className="row gy-4">
+
+        <ResponsiveMasonry
+                columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}
+            >
+
+            <Masonry
+            columnsCount={3}
+            gutter="1.5rem"
+            >
             {filteredItems.map(item => (
               <div
                 key={item.id}
-                className={`col-lg-4 col-md-6 portfolio-item isotope-item filter-${item.category.toLowerCase()}`}
+                className="portfolio-item"
               >
                 <img
-                  src={`/assets/img/masonry-portfolio/${item.image}`}
+                  src={`/assets/img/${item.image}`}
                   className="img-fluid"
                   alt=""
+                  data-aos="fade-up"
+                  data-aos-delay="200"
                 />
                 <div className="portfolio-info">
                   <h4>{item.title}</h4>
                   <p>{item.description}</p>
                   <a
-                    href={`/assets/img/masonry-portfolio/${item.image}`}
+                    href={`/assets/img/${item.image}`}
                     title={item.title}
                     data-gallery={`portfolio-gallery-${item.category.toLowerCase()}`}
                     className="glightbox preview-link"
@@ -88,12 +87,14 @@ const Portfolio = () => {
                   </a>
                 </div>
               </div>
-            ))}
-          </div>
-          {/* End Portfolio Container */}
+          ))}
+          </Masonry>
+          </ResponsiveMasonry>
         </div>
+        {/* End Portfolio Container */}
+
       </div>
-    </section>
+    </section >
   );
 };
 

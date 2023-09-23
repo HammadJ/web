@@ -246,6 +246,9 @@ const Main = () => {
                 
                 <Portfolio />
 
+
+                
+
                 {/* End Portfolio Section */}
              
                 {/* Contact Section - Home Page */}

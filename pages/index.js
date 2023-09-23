@@ -1,8 +1,7 @@
 import Footer from "./Footer"
 import Header from "./Header"
 import Main from "./Main"
-import Script from "next/script"
-import Preloader from "../components/Preloader"
+
 
 export default function Home() {
 
@@ -10,7 +9,7 @@ export default function Home() {
 
 	return (
 		<>
-		
+			
 			<style jsx global>{`
 			:root {
 			  --default-font: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -98,10 +97,18 @@ export default function Home() {
 				<a href="#" id="scroll-top" className="scroll-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short" /></a>
 
 
-			
+
 			</div>
 
-			
+			<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" defer />
+			<script src="assets/vendor/glightbox/js/glightbox.min.js" defer />
+			<script src="assets/vendor/purecounter/purecounter_vanilla.js" defer />
+			<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js" defer />
+			<script src="assets/vendor/swiper/swiper-bundle.min.js" defer />
+			<script src="assets/vendor/aos/aos.js" defer />
+			<script src="assets/vendor/php-email-form/validate.js" defer />
+
+			<script src="assets/js/main.js" defer />
 
 		</>
 	)
