@@ -1358,6 +1358,10 @@ section {
   bottom: 0;
 }
 
+/* .carousel .control-dots {
+  display: none;
+} */
+
 /* Pricing Section - Home Page
 ------------------------------*/
 .pricing {

@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "category": "Interior",
+      "title": "FAISALABAD1",
+      "images": [
+        "INTERIOR/FAISALABAD1/img1.jpg",
+        "INTERIOR/FAISALABAD1/img2.jpg",
+        "INTERIOR/FAISALABAD1/img3.jpg",
+        "INTERIOR/FAISALABAD1/img4.jpg",
+        "INTERIOR/FAISALABAD1/img5.jpg",
+        "INTERIOR/FAISALABAD1/img6.jpg",
+        "INTERIOR/FAISALABAD1/img7.jpg",
+        "INTERIOR/FAISALABAD1/img8.jpg",
+        "INTERIOR/FAISALABAD1/img9.jpg",
+        "INTERIOR/FAISALABAD1/img10.jpg",
+        "INTERIOR/FAISALABAD1/img11.jpg",
+        "INTERIOR/FAISALABAD1/img12.jpg"
+      ],
+      "description": "Lorem ipsum, dolor sit"
+    }
+  ]
+  

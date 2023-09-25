@@ -4,9 +4,14 @@ import '../public/assets/vendor/glightbox/css/glightbox.min.css'
 import '../public/assets/vendor/swiper/swiper-bundle.min.css'
 import '../public/assets/vendor/aos/aos.css'
 import '../public/assets/css/main.css'
+import Layout from '../components/Layout'
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
+  )
 }
 
 export default MyApp
