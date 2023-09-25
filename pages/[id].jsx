@@ -3,6 +3,7 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import carousel styles
 import { useRouter } from 'next/router';
 import portfolioItems from '../data/portfolioData.json';
+import Link from 'next/link';
 
 const PortfolioDetails = ({ portfolioItem }) => {
 
@@ -34,7 +35,7 @@ const PortfolioDetails = ({ portfolioItem }) => {
                     <div className="container">
                         <ol>
                             <li>
-                                <a href="/">Home</a>
+                                <Link href="/">Home</Link>
                             </li>
                             <li className="current">Portfolio Details</li>
                         </ol>
