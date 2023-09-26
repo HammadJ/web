@@ -79,7 +79,7 @@ const Portfolio = () => {
                   </Carousel>
                   <div className="portfolio-info">
                     <h4>{item.title}</h4>
-                    <p>{item.description}</p>
+                    <p>{item.Theme}</p>
 
                     <a
                       href={`/${item.id}`}

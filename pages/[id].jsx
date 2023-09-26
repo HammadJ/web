@@ -73,18 +73,11 @@ const PortfolioDetails = ({ portfolioItem }) => {
                     <div className="row justify-content-between gy-4 mt-4">
                         <div className="col-lg-8" data-aos="fade-up">
                             <div className="portfolio-description">
-                                <h2>This is an example of portfolio details</h2>
+                                <h2>{portfolioItem.title}</h2>
                                 <p>
-                                    Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia.
-                                    Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia
-                                    accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt
-                                    eius.
+                                    {portfolioItem.description}
                                 </p>
-                                <p>
-                                    Amet consequatur qui dolore veniam voluptatem voluptatem sit. Non aspernatur atque natus ut cum nam et.
-                                    Praesentium error dolores rerum minus sequi quia veritatis eum. Eos et doloribus doloremque nesciunt
-                                    molestiae laboriosam.
-                                </p>
+                                
                             </div>
                         </div>
                         <div className="col-lg-3" data-aos="fade-up" data-aos-delay="100">
@@ -92,13 +85,16 @@ const PortfolioDetails = ({ portfolioItem }) => {
                                 <h3>Project information</h3>
                                 <ul>
                                     <li>
-                                        <strong>Category</strong> Web design
+                                        <strong>Category</strong> {portfolioItem.category}
                                     </li>
                                     <li>
-                                        <strong>Client</strong> ASU Company
+                                        <strong>Theme</strong> {portfolioItem.Theme}
                                     </li>
                                     <li>
-                                        <strong>Project date</strong> 01 March, 2020
+                                        <strong>Location</strong> {portfolioItem.location}
+                                    </li>
+                                    <li>
+                                        <strong>Project Date</strong> {portfolioItem.year}
                                     </li>
                                 </ul>
                             </div>

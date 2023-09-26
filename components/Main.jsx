@@ -20,7 +20,6 @@ const Main = () => {
                             </div>
                             <div className="col-lg-5">
                                 <form
-                                    action="#"
                                     className="sign-up-form d-flex"
                                     data-aos="fade-up"
                                     data-aos-delay={300}
@@ -142,8 +141,8 @@ const Main = () => {
                                         <div className="info-item" data-aos="fade" data-aos-delay={300}>
                                             <i className="bi bi-telephone" />
                                             <h3>Call Us</h3>
-                                            <p>+1 5589 55488 55</p>
-                                            <p>+1 6678 254445 41</p>
+                                            <p>+92 334 7833977</p>
+                                            <p>+92 323 4821848</p>
                                         </div>
                                     </div>
                                     {/* End Info Item */}
@@ -151,8 +150,8 @@ const Main = () => {
                                         <div className="info-item" data-aos="fade" data-aos-delay={400}>
                                             <i className="bi bi-envelope" />
                                             <h3>Email Us</h3>
-                                            <p>info@example.com</p>
-                                            <p>contact@example.com</p>
+                                            <p>interioArch0@gmail.com</p>
+                                            <p>‎ </p>
                                         </div>
                                     </div>
                                     {/* End Info Item */}

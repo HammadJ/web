@@ -32,16 +32,16 @@ const Footer = () => {
 						<h4>Our Services</h4>
 						<ul>
 							<li>
-								<Link href="#">INTERIOR DESIGNING</Link>
+								INTERIOR DESIGNING
 							</li>
 							<li>
-								<Link href="#">ARCHITECTURAL DESIGNING</Link>
+								ARCHITECTURAL DESIGNING
 							</li>
 							<li>
-								<Link href="#">CONSTRUCTION FITOUTS</Link>
+								CONSTRUCTION FITOUTS
 							</li>
 							<li>
-								<Link href="#">FURNITURE MAKING</Link>
+								FURNITURE MAKING
 							</li>
 
 						</ul>
@@ -51,10 +51,13 @@ const Footer = () => {
 						<p>Phase 8, DHA</p>
 						<p>Lahore</p>
 						<p className="mt-4">
-							<strong>Phone:</strong> <span>+1 5589 55488 55</span>
+							<strong>Phone:</strong> <span>+92 334 7833977</span>
 						</p>
 						<p>
-							<strong>Email:</strong> <span>info@example.com</span>
+							<strong>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎  </strong> <span>+92 323 4821848</span>
+						</p>
+						<p>
+							<strong>Email:</strong> <span>interioArch0@gmail.com</span>
 						</p>
 					</div>
 				</div>
