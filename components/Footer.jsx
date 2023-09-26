@@ -15,20 +15,6 @@ const Footer = () => {
 									terra videa magna derita valies darta donna mare fermentum iaculis
 									eu non diam phasellus.
 								</p>
-								<div className="social-links d-flex mt-4">
-									<Link href="">
-										<i className="bi bi-twitter" />
-									</Link>
-									<Link href="">
-										<i className="bi bi-facebook" />
-									</Link>
-									<Link href="">
-										<i className="bi bi-instagram" />
-									</Link>
-									<Link href="">
-										<i className="bi bi-linkedin" />
-									</Link>
-								</div>
 							</div>
 							<div className="col-lg-2 col-6 footer-links">
 								<h4>Useful Links</h4>
@@ -41,15 +27,6 @@ const Footer = () => {
 									</li>
 									<li>
 										<Link href="#">Services</Link>
-									</li>
-									<li>
-										<Link href="#">Terms of service</Link>
-									</li>
-									<li>
-										<Link href="#">Privacy policy</Link>
-									</li>
-									<li>
-										<Link href="/admin/Login">Admin</Link>
 									</li>
 								</ul>
 							</div>
@@ -84,15 +61,6 @@ const Footer = () => {
 							</div>
 						</div>
 					</div>
-					{/* <div className="container copyright text-center mt-4">
-						<p>
-							© <span>Copyright</span> <strong className="px-1">Append</strong>{" "}
-							<span>All Rights Reserved</span>
-						</p>
-						<div className="credits">
-							Designed by <Link href="https://bootstrapmade.com/">BootstrapMade</Link>
-						</div>
-					</div> */}
 				</footer>
   )
 }

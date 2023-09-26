@@ -65,7 +65,7 @@ const Portfolio = () => {
                   >
                     {item.images.map((imageUrl, index) => (
                       <div key={index}>
-                        <Image
+                        <img
                           src={`/assets/img/${imageUrl}`}
                           className="img-fluid"
                           alt=""
@@ -80,14 +80,7 @@ const Portfolio = () => {
                   <div className="portfolio-info">
                     <h4>{item.title}</h4>
                     <p>{item.description}</p>
-                    <a
-                      href={`/assets/img/${item.image}`}
-                      title={item.title}
-                      data-gallery={`portfolio-gallery-${item.category.toLowerCase()}`}
-                      className="glightbox preview-link"
-                    >
-                      <i className="bi bi-zoom-in" />
-                    </a>
+                    
                     <a
                       href={`/${item.id}`}
                       title="More Details"

@@ -4,16 +4,18 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import carous
 import { useRouter } from 'next/router';
 import portfolioItems from '../data/portfolioData.json';
 import Link from 'next/link';
-
+import Head from 'next/head';
+import Image from 'next/image';
 const PortfolioDetails = ({ portfolioItem }) => {
 
 
     const router = useRouter();
 
-    // const id = router.query.id;
-    // const portfolioItem = portfolioItems.find(portfolioItem => portfolioItem.id == id);
-    // console.log(portfolioItem);
     return (
+        <>
+        <Head>
+			<title>Interio Arch</title>
+		</Head>
         <main id="main">
             {/* Portfolio Details Page Title & Breadcrumbs */}
             <div data-aos="fade" className="page-title">
@@ -59,11 +61,10 @@ const PortfolioDetails = ({ portfolioItem }) => {
                         >
                             {portfolioItem.images.map((image, index) => (
                                 <div key={index} >
-                                    <img
+                                    <Image
                                         src={`/assets/img/${image}`}
                                         className="img-fluid"
                                         alt=""
-                                        style={{ height: '90vh' }}
                                         data-aos="fade-up"
                                         data-aos-delay="200"
                                     />
@@ -109,6 +110,7 @@ const PortfolioDetails = ({ portfolioItem }) => {
             </section>
             {/* End Portfolio-details Section */}
         </main>
+        </>
     );
 };
 

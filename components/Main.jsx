@@ -61,7 +61,7 @@ const Main = () => {
                                     <div className="col-md-6" data-aos="fade-up" data-aos-delay={200}>
                                         <div className="icon-box">
                                             <i className="bi bi-buildings" />
-                                            <h3>Eius provident</h3>
+                                            <h3>INTERIOR DESIGNING</h3>
                                             <p>
                                                 Magni repellendus vel ullam hic officia accusantium ipsa
                                                 dolor omnis dolor voluptatem
@@ -72,7 +72,7 @@ const Main = () => {
                                     <div className="col-md-6" data-aos="fade-up" data-aos-delay={300}>
                                         <div className="icon-box">
                                             <i className="bi bi-clipboard-pulse" />
-                                            <h3>Rerum aperiam</h3>
+                                            <h3>FURNITURE MAKING</h3>
                                             <p>
                                                 Autem saepe animi et aut aspernatur culpa facere. Rerum
                                                 saepe rerum voluptates quia
@@ -83,7 +83,7 @@ const Main = () => {
                                     <div className="col-md-6" data-aos="fade-up" data-aos-delay={400}>
                                         <div className="icon-box">
                                             <i className="bi bi-command" />
-                                            <h3>Veniam omnis</h3>
+                                            <h3>ARCHITECTURAL DESIGNING</h3>
                                             <p>
                                                 Omnis perferendis molestias culpa sed. Recusandae quas
                                                 possimus. Quod consequatur corrupti
@@ -94,7 +94,7 @@ const Main = () => {
                                     <div className="col-md-6" data-aos="fade-up" data-aos-delay={500}>
                                         <div className="icon-box">
                                             <i className="bi bi-graph-up-arrow" />
-                                            <h3>Delares sapiente</h3>
+                                            <h3>CONSTRUCTION FITOUTS</h3>
                                             <p>
                                                 Sint et dolor voluptas minus possimus nostrum. Reiciendis
                                                 commodi eligendi omnis quideme lorenda
@@ -108,137 +108,6 @@ const Main = () => {
                     </div>
                 </section>
                 {/* End About Section */}
-                {/* Services Section - Home Page */}
-                <section id="services" className="services">
-                    {/*  Section Title */}
-                    <div className="container section-title" data-aos="fade-up">
-                        <h2>Services</h2>
-                        <p>
-                            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-                            consectetur velit
-                        </p>
-                    </div>
-                    {/* End Section Title */}
-                    <div className="container">
-                        <div className="row gy-4">
-                            <div className="col-lg-6 " data-aos="fade-up" data-aos-delay={100}>
-                                <div className="service-item d-flex">
-                                    <div className="icon flex-shrink-0">
-                                        <i className="bi bi-briefcase" />
-                                    </div>
-                                    <div>
-                                        <h4 className="title">
-                                            <a href="services-details.html" className="stretched-link">
-                                                Lorem Ipsum
-                                            </a>
-                                        </h4>
-                                        <p className="description">
-                                            Voluptatum deleniti atque corrupti quos dolores et quas
-                                            molestias excepturi sint occaecati cupiditate non provident
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* End Service Item */}
-                            <div className="col-lg-6 " data-aos="fade-up" data-aos-delay={200}>
-                                <div className="service-item d-flex">
-                                    <div className="icon flex-shrink-0">
-                                        <i className="bi bi-card-checklist" />
-                                    </div>
-                                    <div>
-                                        <h4 className="title">
-                                            <a href="services-details.html" className="stretched-link">
-                                                Dolor Sitema
-                                            </a>
-                                        </h4>
-                                        <p className="description">
-                                            Minim veniam, quis nostrud exercitation ullamco laboris nisi
-                                            ut aliquip ex ea commodo consequat tarad limino ata
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* End Service Item */}
-                            <div className="col-lg-6 " data-aos="fade-up" data-aos-delay={300}>
-                                <div className="service-item d-flex">
-                                    <div className="icon flex-shrink-0">
-                                        <i className="bi bi-bar-chart" />
-                                    </div>
-                                    <div>
-                                        <h4 className="title">
-                                            <a href="services-details.html" className="stretched-link">
-                                                Sed ut perspiciatis
-                                            </a>
-                                        </h4>
-                                        <p className="description">
-                                            Duis aute irure dolor in reprehenderit in voluptate velit esse
-                                            cillum dolore eu fugiat nulla pariatur
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* End Service Item */}
-                            <div className="col-lg-6 " data-aos="fade-up" data-aos-delay={400}>
-                                <div className="service-item d-flex">
-                                    <div className="icon flex-shrink-0">
-                                        <i className="bi bi-binoculars" />
-                                    </div>
-                                    <div>
-                                        <h4 className="title">
-                                            <a href="services-details.html" className="stretched-link">
-                                                Magni Dolores
-                                            </a>
-                                        </h4>
-                                        <p className="description">
-                                            Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                                            qui officia deserunt mollit anim id est laborum
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* End Service Item */}
-                            <div className="col-lg-6 " data-aos="fade-up" data-aos-delay={500}>
-                                <div className="service-item d-flex">
-                                    <div className="icon flex-shrink-0">
-                                        <i className="bi bi-brightness-high" />
-                                    </div>
-                                    <div>
-                                        <h4 className="title">
-                                            <a href="services-details.html" className="stretched-link">
-                                                Nemo Enim
-                                            </a>
-                                        </h4>
-                                        <p className="description">
-                                            At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                                            blanditiis praesentium voluptatum deleniti atque
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* End Service Item */}
-                            <div className="col-lg-6 " data-aos="fade-up" data-aos-delay={600}>
-                                <div className="service-item d-flex">
-                                    <div className="icon flex-shrink-0">
-                                        <i className="bi bi-calendar4-week" />
-                                    </div>
-                                    <div>
-                                        <h4 className="title">
-                                            <a href="services-details.html" className="stretched-link">
-                                                Eiusmod Tempor
-                                            </a>
-                                        </h4>
-                                        <p className="description">
-                                            Et harum quidem rerum facilis est et expedita distinctio. Nam
-                                            libero tempore, cum soluta nobis est eligendi
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* End Service Item */}
-                        </div>
-                    </div>
-                </section>
-                {/* End Services Section */}
                 {/* Portfolio Section - Home Page */}
                 <Portfolio />
                 {/* End Portfolio Section */}
