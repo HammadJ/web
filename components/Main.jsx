@@ -7,7 +7,7 @@ const Main = () => {
             <main id="main">
                 {/* Hero Section - Home Page */}
                 <section id="hero" className="hero">
-                    <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in" />
+                    <img src="assets/img/hero-bg.webp" alt="bg img" data-aos="fade-in" />
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-10">
