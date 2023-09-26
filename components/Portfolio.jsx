@@ -18,7 +18,7 @@ const Portfolio = () => {
       <div className="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
         <p>
-          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+          Our following work has successfully managed to gather appreciation
         </p>
       </div>
       {/* End Section Title */}
@@ -65,7 +65,7 @@ const Portfolio = () => {
                   >
                     {item.images.map((imageUrl, index) => (
                       <div key={index}>
-                        <img
+                        <Image
                           src={`/assets/img/${imageUrl}`}
                           className="img-fluid"
                           alt=""
@@ -80,7 +80,7 @@ const Portfolio = () => {
                   <div className="portfolio-info">
                     <h4>{item.title}</h4>
                     <p>{item.description}</p>
-                    
+
                     <a
                       href={`/${item.id}`}
                       title="More Details"

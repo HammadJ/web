@@ -25,9 +25,7 @@ const PortfolioDetails = ({ portfolioItem }) => {
                             <div className="col-lg-8">
                                 <h1>Portfolio Details</h1>
                                 <p className="mb-0">
-                                    Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a
-                                    odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum
-                                    dolorem.
+                                Our following work has successfully managed to gather appreciation
                                 </p>
                             </div>
                         </div>

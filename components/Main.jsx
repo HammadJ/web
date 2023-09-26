@@ -63,8 +63,10 @@ const Main = () => {
                                             <i className="bi bi-buildings" />
                                             <h3>INTERIOR DESIGNING</h3>
                                             <p>
-                                                Magni repellendus vel ullam hic officia accusantium ipsa
-                                                dolor omnis dolor voluptatem
+                                                We don’t only provide you with the colors but also make sure
+                                                to paint your home in the most pleasing way. Our interior design
+                                                services varies from modern to classical or to be more precise,
+                                                according to your taste.
                                             </p>
                                         </div>
                                     </div>{" "}
@@ -74,19 +76,9 @@ const Main = () => {
                                             <i className="bi bi-clipboard-pulse" />
                                             <h3>FURNITURE MAKING</h3>
                                             <p>
-                                                Autem saepe animi et aut aspernatur culpa facere. Rerum
-                                                saepe rerum voluptates quia
-                                            </p>
-                                        </div>
-                                    </div>{" "}
-                                    {/* End Icon Box */}
-                                    <div className="col-md-6" data-aos="fade-up" data-aos-delay={400}>
-                                        <div className="icon-box">
-                                            <i className="bi bi-command" />
-                                            <h3>ARCHITECTURAL DESIGNING</h3>
-                                            <p>
-                                                Omnis perferendis molestias culpa sed. Recusandae quas
-                                                possimus. Quod consequatur corrupti
+                                                We have got you covered when it comes to furniture items too.
+                                                We offer an exquisite range of high-quality furniture which can
+                                                be amended or made exactly according to your demands.
                                             </p>
                                         </div>
                                     </div>{" "}
@@ -96,11 +88,25 @@ const Main = () => {
                                             <i className="bi bi-graph-up-arrow" />
                                             <h3>CONSTRUCTION FITOUTS</h3>
                                             <p>
-                                                Sint et dolor voluptas minus possimus nostrum. Reiciendis
-                                                commodi eligendi omnis quideme lorenda
+                                                In order to ensure perfect and safe execution of our designs,
+                                                we will be facilitating our clients with the service of providing
+                                                labors as well along with making sure that the work is accomplished on its due time.
                                             </p>
                                         </div>
-                                    </div>{" "}
+                                    </div>
+                                    {/* End Icon Box */}
+
+                                    <div className="col-md-6" data-aos="fade-up" data-aos-delay={400}>
+                                        <div className="icon-box">
+                                            <i className="bi bi-command" />
+                                            <h3>ARCHITECTURAL DESIGNING</h3>
+                                            <p>
+                                                InterioArch provides you with the most unique and secure architectural
+                                                designs and plans when it comes to your home. From fulfilling your needs
+                                                & wants to coming up with extra elements to make sure that your home is extra special.
+                                            </p>
+                                        </div>
+                                    </div>
                                     {/* End Icon Box */}
                                 </div>
                             </div>
@@ -117,10 +123,6 @@ const Main = () => {
                     {/*  Section Title */}
                     <div className="container section-title" data-aos="fade-up">
                         <h2>Contact</h2>
-                        <p>
-                            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-                            consectetur velit
-                        </p>
                     </div>
                     {/* End Section Title */}
                     <div className="container" data-aos="fade-up" data-aos-delay={100}>
@@ -131,8 +133,8 @@ const Main = () => {
                                         <div className="info-item" data-aos="fade" data-aos-delay={200}>
                                             <i className="bi bi-geo-alt" />
                                             <h3>Address</h3>
-                                            <p>A108 Adam Street</p>
-                                            <p>New York, NY 535022</p>
+                                            <p>Phase 8, DHA</p>
+                                            <p>Lahore</p>
                                         </div>
                                     </div>
                                     {/* End Info Item */}
@@ -159,13 +161,13 @@ const Main = () => {
                                             <i className="bi bi-clock" />
                                             <h3>Open Hours</h3>
                                             <p>Monday - Friday</p>
-                                            <p>9:00AM - 05:00PM</p>
+                                            <p>10:00AM - 06:00PM</p>
                                         </div>
                                     </div>
                                     {/* End Info Item */}
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </section>
