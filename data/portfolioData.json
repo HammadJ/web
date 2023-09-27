@@ -6,63 +6,63 @@
     "images": [
       {
         "src": "INTERIOR/FAISALABAD1/img1.webp",
-        "width": 800,
-        "height": 600
+        "width": 2400,
+        "height": 1440
       },
       {
         "src": "INTERIOR/FAISALABAD1/img2.webp",
-        "width": 800,
-        "height": 600
+        "width": 2400,
+        "height": 1440
       },
       {
         "src": "INTERIOR/FAISALABAD1/img3.webp",
-        "width": 800,
-        "height": 600
+        "width": 2400,
+        "height": 1440
       },
       {
         "src": "INTERIOR/FAISALABAD1/img4.webp",
-        "width": 800,
-        "height": 600
+        "width": 2500,
+        "height": 1170
       },
       {
         "src": "INTERIOR/FAISALABAD1/img5.webp",
-        "width": 800,
-        "height": 600
+        "width": 1600,
+        "height": 960
       },
       {
         "src": "INTERIOR/FAISALABAD1/img6.webp",
-        "width": 800,
-        "height": 600
+        "width": 1600,
+        "height": 960
       },
       {
         "src": "INTERIOR/FAISALABAD1/img7.webp",
-        "width": 800,
-        "height": 600
+        "width": 1600,
+        "height": 960
       },
       {
         "src": "INTERIOR/FAISALABAD1/img8.webp",
-        "width": 800,
-        "height": 600
+        "width": 1600,
+        "height": 752
       },
       {
         "src": "INTERIOR/FAISALABAD1/img9.webp",
-        "width": 800,
-        "height": 600
+        "width": 1600,
+        "height": 960
       },
       {
         "src": "INTERIOR/FAISALABAD1/img10.webp",
-        "width": 800,
-        "height": 600
+        "width": 1600,
+        "height": 960
       },
       {
         "src": "INTERIOR/FAISALABAD1/img11.webp",
-        "width": 800,
-        "height": 600
+        "width": 1600,
+        "height": 960
       },
       {
         "src": "INTERIOR/FAISALABAD1/img12.webp",
-        "width": 800,
-        "height": 600
+        "width": 1600,
+        "height": 960
       }
     ],
     "Theme": "Neo-Classical",
@@ -77,38 +77,38 @@
     "images": [
       {
         "src": "INTERIOR/FAISALABAD2/img1.webp",
-        "width": 800,  
-        "height": 600  
+        "width": 1600,  
+        "height": 1024  
       },
       {
         "src": "INTERIOR/FAISALABAD2/img2.webp",
-        "width": 800,
-        "height": 600
+        "width": 1600,
+        "height": 1600
       },
       {
         "src": "INTERIOR/FAISALABAD2/img3.webp",
-        "width": 800,
-        "height": 600
+        "width": 1600,
+        "height": 1280
       },
       {
         "src": "INTERIOR/FAISALABAD2/img4.webp",
-        "width": 800,
-        "height": 600
+        "width": 1600,
+        "height": 1386
       },
       {
         "src": "INTERIOR/FAISALABAD2/img5.webp",
-        "width": 800,
-        "height": 600
+        "width": 1600,
+        "height": 1024
       },
       {
         "src": "INTERIOR/FAISALABAD2/img6.webp",
-        "width": 800,
-        "height": 600
+        "width": 1600,
+        "height": 1280
       },
       {
         "src": "INTERIOR/FAISALABAD2/img7.webp",
-        "width": 800,
-        "height": 600
+        "width": 1600,
+        "height": 1600
       }
     ],
     "Theme": "Modern",
@@ -123,28 +123,28 @@
     "images": [
       {
         "src": "INTERIOR/FAISALABAD3/img1.webp",
-        "width": 800,
-        "height": 600
+        "width": 1200,
+        "height": 1000
       },
       {
         "src": "INTERIOR/FAISALABAD3/img2.webp",
-        "width": 800,
-        "height": 600
+        "width": 2000,
+        "height": 900
       },
       {
         "src": "INTERIOR/FAISALABAD3/img3.webp",
-        "width": 800,
-        "height": 600
+        "width": 1200,
+        "height": 1200
       },
       {
         "src": "INTERIOR/FAISALABAD3/img4.webp",
-        "width": 800,
-        "height": 600
+        "width": 2000,
+        "height": 1000
       },
       {
         "src": "INTERIOR/FAISALABAD3/img5.webp",
-        "width": 800,
-        "height": 600
+        "width": 1500,
+        "height": 900
       }
     ],
     "Theme": "Minimalistic",
@@ -159,73 +159,73 @@
     "images": [
       {
         "src": "INTERIOR/FAISALABAD4/img1.webp",
-        "width": 800,
-        "height": 600
+        "width": 1152,
+        "height": 1600
       },
       {
         "src": "INTERIOR/FAISALABAD4/img2.webp",
-        "width": 800,
-        "height": 600
+        "width": 1152,
+        "height": 1600
       },
       {
         "src": "INTERIOR/FAISALABAD4/img3.webp",
+        "width": 900,
+        "height": 1600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD4/img4.webp",
         "width": 1600,
         "height": 1333
       },
       {
-        "src": "INTERIOR/FAISALABAD4/img4.webp",
-        "width": 800,
-        "height": 600
-      },
-      {
         "src": "INTERIOR/FAISALABAD4/img5.webp",
-        "width": 800,
-        "height": 600
+        "width": 1200,
+        "height": 1000
       },
       {
         "src": "INTERIOR/FAISALABAD4/img6.webp",
-        "width": 800,
-        "height": 600
+        "width": 1200,
+        "height": 1000
       },
       {
         "src": "INTERIOR/FAISALABAD4/img7.webp",
-        "width": 800,
-        "height": 600
+        "width": 1500,
+        "height": 1500
       },
       {
         "src": "INTERIOR/FAISALABAD4/img8.webp",
-        "width": 800,
-        "height": 600
+        "width": 1500,
+        "height": 1500
       },
       {
         "src": "INTERIOR/FAISALABAD4/img9.webp",
-        "width": 800,
-        "height": 600
+        "width": 1000,
+        "height": 1500
       },
       {
         "src": "INTERIOR/FAISALABAD4/img10.webp",
-        "width": 800,
-        "height": 600
+        "width": 1200,
+        "height": 1500
       },
       {
         "src": "INTERIOR/FAISALABAD4/img11.webp",
-        "width": 800,
-        "height": 600
+        "width": 1200,
+        "height": 1000
       },
       {
         "src": "INTERIOR/FAISALABAD4/img12.webp",
-        "width": 800,
-        "height": 600
+        "width": 1200,
+        "height": 1000
       },
       {
         "src": "INTERIOR/FAISALABAD4/img13.webp",
-        "width": 800,
-        "height": 600
+        "width": 1000,
+        "height": 1389
       },
       {
         "src": "INTERIOR/FAISALABAD4/img14.webp",
-        "width": 800,
-        "height": 600
+        "width": 1200,
+        "height": 1500
       }
     ],
     "Theme": "Neo-Classical",
@@ -240,28 +240,28 @@
     "images": [
       {
         "src": "INTERIOR/FAISALABAD5/img1.webp",
-        "width": 800,
-        "height": 600
+        "width": 1753,
+        "height": 1240
       },
       {
         "src": "INTERIOR/FAISALABAD5/img2.webp",
-        "width": 800,
-        "height": 600
+        "width": 1753,
+        "height": 1240
       },
       {
         "src": "INTERIOR/FAISALABAD5/img3.webp",
-        "width": 800,
-        "height": 600
+        "width": 1753,
+        "height": 1240
       },
       {
         "src": "INTERIOR/FAISALABAD5/img4.webp",
-        "width": 800,
-        "height": 600
+        "width": 1753,
+        "height": 1240
       },
       {
         "src": "INTERIOR/FAISALABAD5/img5.webp",
-        "width": 800,
-        "height": 600
+        "width": 1753,
+        "height": 1240
       }
     ],
     "Theme": "Modern",
@@ -276,18 +276,18 @@
     "images": [
       {
         "src": "INTERIOR/INTERLOOP_HALL/img1.webp",
-        "width": 800,
-        "height": 600
+        "width": 2500,
+        "height": 1600
       },
       {
         "src": "INTERIOR/INTERLOOP_HALL/img2.webp",
-        "width": 800,
-        "height": 600
+        "width": 2500,
+        "height": 1600
       },
       {
         "src": "INTERIOR/INTERLOOP_HALL/img3.webp",
-        "width": 800,
-        "height": 600
+        "width": 2500,
+        "height": 1600
       }
     ],
     "Theme": "Minimalistic",
@@ -302,23 +302,23 @@
     "images": [
       {
         "src": "INTERIOR/INTERLOOP_MEETING/img1.webp",
-        "width": 800,
-        "height": 600
+        "width": 1753,
+        "height": 1240
       },
       {
         "src": "INTERIOR/INTERLOOP_MEETING/img2.webp",
-        "width": 800,
-        "height": 600
+        "width": 1753,
+        "height": 1240
       },
       {
         "src": "INTERIOR/INTERLOOP_MEETING/img3.webp",
-        "width": 800,
-        "height": 600
+        "width": 1753,
+        "height": 1240
       },
       {
         "src": "INTERIOR/INTERLOOP_MEETING/img4.webp",
-        "width": 800,
-        "height": 600
+        "width": 1753,
+        "height": 1240
       }
     ],
     "Theme": "Minimalistic",
@@ -333,13 +333,13 @@
     "images": [
       {
         "src": "INTERIOR/IZHAR_DIRECTOR/img1.webp",
-        "width": 800,
-        "height": 600
+        "width": 1800,
+        "height": 1200
       },
       {
         "src": "INTERIOR/IZHAR_DIRECTOR/img2.webp",
-        "width": 800,
-        "height": 600
+        "width": 1800,
+        "height": 1800
       }
     ],
     "Theme": "Modern",
@@ -354,13 +354,13 @@
     "images": [
       {
         "src": "INTERIOR/KIT2/img1.webp",
-        "width": 800,
-        "height": 600
+        "width": 1753,
+        "height": 1240
       },
       {
         "src": "INTERIOR/KIT2/img2.webp",
-        "width": 800,
-        "height": 600
+        "width": 1753,
+        "height": 1240
       }
     ],
     "Theme": "Neo-Classical",
@@ -375,13 +375,13 @@
     "images": [
       {
         "src": "INTERIOR/KITCHEN/img1.webp",
-        "width": 800,
-        "height": 600
+        "width": 1753,
+        "height": 1240
       },
       {
         "src": "INTERIOR/KITCHEN/img2.webp",
-        "width": 800,
-        "height": 600
+        "width": 1753,
+        "height": 1240
       }
     ],
     "Theme": "Neo-Classical",
@@ -396,23 +396,23 @@
     "images": [
       {
         "src": "INTERIOR/LIVING/img1.webp",
-        "width": 800,
-        "height": 600
+        "width": 1753,
+        "height": 1240
       },
       {
         "src": "INTERIOR/LIVING/img2.webp",
-        "width": 800,
-        "height": 600
+        "width": 1753,
+        "height": 1240
       },
       {
         "src": "INTERIOR/LIVING/img3.webp",
-        "width": 800,
-        "height": 600
+        "width": 1753,
+        "height": 1240
       },
       {
         "src": "INTERIOR/LIVING/img4.webp",
-        "width": 800,
-        "height": 600
+        "width": 1753,
+        "height": 1240
       }
     ],
     "Theme": "Neo-Classical",
@@ -427,13 +427,13 @@
     "images": [
       {
         "src": "INTERIOR/MAJLIS/img1.webp",
-        "width": 800,
-        "height": 600
+        "width": 1753,
+        "height": 1240
       },
       {
         "src": "INTERIOR/MAJLIS/img2.webp",
-        "width": 800,
-        "height": 600
+        "width": 1753,
+        "height": 1240
       }
     ],
     "Theme": "Neo-Classical",
@@ -448,18 +448,18 @@
     "images": [
       {
         "src": "INTERIOR/MAZHAR_SHAFI_TEXTILE/img1.webp",
-        "width": 800,
-        "height": 600
+        "width": 4000,
+        "height": 2000
       },
       {
         "src": "INTERIOR/MAZHAR_SHAFI_TEXTILE/img2.webp",
-        "width": 800,
-        "height": 600
+        "width": 1500,
+        "height": 750
       },
       {
         "src": "INTERIOR/MAZHAR_SHAFI_TEXTILE/img3.webp",
-        "width": 800,
-        "height": 600
+        "width": 4000,
+        "height": 2000
       }
     ],
     "Theme": "Neo-Classical",
@@ -474,23 +474,23 @@
     "images": [
       {
         "src": "INTERIOR/SERVICE_SHOES/img1.webp",
-        "width": 800,
-        "height": 600
+        "width": 1920,
+        "height": 1080
       },
       {
         "src": "INTERIOR/SERVICE_SHOES/img2.webp",
-        "width": 800,
-        "height": 600
+        "width": 1920,
+        "height": 1080
       },
       {
         "src": "INTERIOR/SERVICE_SHOES/img3.webp",
-        "width": 800,
-        "height": 600
+        "width": 1910,
+        "height": 934
       },
       {
         "src": "INTERIOR/SERVICE_SHOES/img4.webp",
-        "width": 800,
-        "height": 600
+        "width": 1920,
+        "height": 1080
       }
     ],
     "Theme": "Neo-Classical",
@@ -505,13 +505,13 @@
     "images": [
       {
         "src": "INTERIOR/SHOE PLANET_LAHORE/img1.webp",
-        "width": 800,
-        "height": 600
+        "width": 1650,
+        "height": 1275
       },
       {
         "src": "INTERIOR/SHOE PLANET_LAHORE/img2.webp",
-        "width": 800,
-        "height": 600
+        "width": 1650,
+        "height": 1275
       }
     ],
     "Theme": "Neo-Classical",
@@ -526,13 +526,13 @@
     "images": [
       {
         "src": "INTERIOR/TURKISH_BATH/img1.webp",
-        "width": 800,
-        "height": 600
+        "width": 1753,
+        "height": 1240
       },
       {
         "src": "INTERIOR/TURKISH_BATH/img2.webp",
-        "width": 800,
-        "height": 600
+        "width": 1753,
+        "height": 1240
       }
     ],
     "Theme": "Neo-Classical",
@@ -547,13 +547,13 @@
     "images": [
       {
         "src": "ARCHITECTURE/Project1/img1.webp",
-        "width": 800,
-        "height": 600
+        "width": 1200,
+        "height": 850
       },
       {
         "src": "ARCHITECTURE/Project1/img2.webp",
-        "width": 800,
-        "height": 600
+        "width": 1200,
+        "height": 850
       }
     ],
     "Theme": "Neo-Classical",

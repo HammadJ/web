@@ -50,10 +50,7 @@ const Portfolio = () => {
               gutter="1.5rem"
             >
               {filteredItems.map(item => (
-                <div
-                  key={item.id}
-                  className="portfolio-item"
-                >
+                <div key={item.id} className="portfolio-item">
                   <Carousel
                     showArrows={true}
                     showThumbs={false}
@@ -63,7 +60,7 @@ const Portfolio = () => {
                     interval={3000} // Auto-play interval in milliseconds
                     stopOnHover={true}
                   >
-                    {item.images.map((imageUrl, index) => (
+                    {item.images.slice(0, 3).map((imageUrl, index) => (
                       <div key={index}>
                         <Image
                           src={`/assets/img/${imageUrl.src}`}
@@ -77,23 +74,17 @@ const Portfolio = () => {
                         />
                       </div>
                     ))}
-
-
                   </Carousel>
                   <div className="portfolio-info">
                     <h4>{item.title}</h4>
                     <p>{item.Theme}</p>
-
-                    <a
-                      href={`/${item.id}`}
-                      title="More Details"
-                      className="details-link"
-                    >
+                    <a href={`/${item.id}`} title="More Details" className="details-link">
                       <i className="bi bi-link-45deg" />
                     </a>
                   </div>
                 </div>
               ))}
+
             </Masonry>
           </ResponsiveMasonry>
         </div>
