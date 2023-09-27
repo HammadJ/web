@@ -66,11 +66,14 @@ const Portfolio = () => {
                     {item.images.map((imageUrl, index) => (
                       <div key={index}>
                         <Image
-                          src={`/assets/img/${imageUrl}`}
+                          src={`/assets/img/${imageUrl.src}`}
                           className="img-fluid"
                           alt=""
                           data-aos="fade-up"
                           data-aos-delay="200"
+                          height={imageUrl.height}
+                          width={imageUrl.width}
+                          responsive="true"
                         />
                       </div>
                     ))}

@@ -1,267 +1,564 @@
 [
-    {
-      "id": 1,
-      "category": "Interior",
-      "title": "LIVING ROOM",
-      "images": [
-        "INTERIOR/FAISALABAD1/img1.webp",
-        "INTERIOR/FAISALABAD1/img2.webp",
-        "INTERIOR/FAISALABAD1/img3.webp",
-        "INTERIOR/FAISALABAD1/img4.webp",
-        "INTERIOR/FAISALABAD1/img5.webp",
-        "INTERIOR/FAISALABAD1/img6.webp",
-        "INTERIOR/FAISALABAD1/img7.webp",
-        "INTERIOR/FAISALABAD1/img8.webp",
-        "INTERIOR/FAISALABAD1/img9.webp",
-        "INTERIOR/FAISALABAD1/img10.webp",
-        "INTERIOR/FAISALABAD1/img11.webp",
-        "INTERIOR/FAISALABAD1/img12.webp"
-      ],
-      "Theme": "Neo-Classical",
-      "description": "Lorem ipsum, dolor sit",
-      "year": "2023",
-      "location": "Faisalabad"
-    },
-    {
-      "id": 2,
-      "category": "Interior",
-      "title": "LIVING ROOM",
-      "images": [
-        "INTERIOR/FAISALABAD2/img1.webp",
-        "INTERIOR/FAISALABAD2/img2.webp",
-        "INTERIOR/FAISALABAD2/img3.webp",
-        "INTERIOR/FAISALABAD2/img4.webp",
-        "INTERIOR/FAISALABAD2/img5.webp",
-        "INTERIOR/FAISALABAD2/img6.webp",
-        "INTERIOR/FAISALABAD2/img7.webp"
-      ],
-      "Theme": "Modern",
-      "description": "Lorem ipsum, dolor sit",
-      "year": "2023",
-      "location": "Faisalabad"
-    },
-    {
-      "id": 3,
-      "category": "Interior",
-      "title": "BED ROOM",
-      "images": [
-        "INTERIOR/FAISALABAD3/img1.webp",
-        "INTERIOR/FAISALABAD3/img2.webp",
-        "INTERIOR/FAISALABAD3/img3.webp",
-        "INTERIOR/FAISALABAD3/img4.webp",
-        "INTERIOR/FAISALABAD3/img5.webp"
-      ],
-      "Theme": "Minimalistic",
-      "description": "Lorem ipsum, dolor sit",
-      "year": "2023",
-      "location": "Faisalabad"
-    },
-    {
-      "id": 4,
-      "category": "Interior",
-      "title": "ENTRANCE LOBBY",
-      "images": [
-        "INTERIOR/FAISALABAD4/img1.webp",
-        "INTERIOR/FAISALABAD4/img2.webp",
-        "INTERIOR/FAISALABAD4/img3.webp",
-        "INTERIOR/FAISALABAD4/img4.webp",
-        "INTERIOR/FAISALABAD4/img5.webp",
-        "INTERIOR/FAISALABAD4/img6.webp",
-        "INTERIOR/FAISALABAD4/img7.webp",
-        "INTERIOR/FAISALABAD4/img8.webp",
-        "INTERIOR/FAISALABAD4/img9.webp",
-        "INTERIOR/FAISALABAD4/img10.webp",
-        "INTERIOR/FAISALABAD4/img11.webp",
-        "INTERIOR/FAISALABAD4/img12.webp",
-        "INTERIOR/FAISALABAD4/img13.webp",
-        "INTERIOR/FAISALABAD4/img14.webp"
-      ],
-      "Theme": "Neo-Classical",
-      "description": "Lorem ipsum, dolor sit",
-      "year": "2023",
-      "location": "Faisalabad"
-    },
-    {
-      "id": 5,
-      "category": "Interior",
-      "title": "BED ROOM",
-      "images": [
-        "INTERIOR/FAISALABAD5/img1.webp",
-        "INTERIOR/FAISALABAD5/img2.webp",
-        "INTERIOR/FAISALABAD5/img3.webp",
-        "INTERIOR/FAISALABAD5/img4.webp",
-        "INTERIOR/FAISALABAD5/img5.webp"
-      ],
-      "Theme": "Modern",
-      "description": "Lorem ipsum, dolor sit",
-      "year": "2023",
-      "location": "Faisalabad"
-    },
-    {
-      "id": 6,
-      "category": "Interior",
-      "title": "TRAINING HALL(INTERLOOP) ",
-      "images": [
-        "INTERIOR/INTERLOOP_HALL/img1.webp",
-        "INTERIOR/INTERLOOP_HALL/img2.webp",
-        "INTERIOR/INTERLOOP_HALL/img3.webp"
-        
-      ],
-      "Theme": "Minimalistic",
-      "description": "Lorem ipsum, dolor sit",
-      "year": "2023",
-      "location": "Lahore"
-    },
-    {
-      "id": 7,
-      "category": "Interior",
-      "title": "MEETING ROOM(INTERLOOP)",
-      "images": [
-        "INTERIOR/INTERLOOP_MEETING/img1.webp",
-        "INTERIOR/INTERLOOP_MEETING/img2.webp",
-        "INTERIOR/INTERLOOP_MEETING/img3.webp",
-        "INTERIOR/INTERLOOP_MEETING/img4.webp"
-      ],
-      "Theme": "Minimalistic",
-      "description": "Lorem ipsum, dolor sit",
-      "year": "2023",
-      "location": "Lahore"
-    },
-    {
-      "id": 8,
-      "category": "Interior",
-      "title": "BED ROOM",
-      "images": [
-        "INTERIOR/IZHAR_DIRECTOR/img1.webp",
-        "INTERIOR/IZHAR_DIRECTOR/img2.webp"
-      ],
-      "Theme": "Modern",
-      "description": "Lorem ipsum, dolor sit",
-      "year": "2023",
-      "location": "Lahore"
-    },
-    {
-      "id": 9,
-      "category": "Interior",
-      "title": "KITCHEN",
-      "images": [
-        "INTERIOR/KIT2/img1.webp",
-        "INTERIOR/KIT2/img2.webp"
-      ],
-      "Theme": "Neo-Classical",
-      "Statement": "Neo-Classical",
-      "description": "Lorem ipsum, dolor sit",
-      "year": "2023",
-      "location": "Faisalabad"
-    },
-    {
-      "id": 10,
-      "category": "Interior",
-      "title": "KITCHEN",
-      "images": [
-        "INTERIOR/KITCHEN/img1.webp",
-        "INTERIOR/KITCHEN/img2.webp"
-      ],
-      "Theme": "Neo-Classical",
-      "description": "Lorem ipsum, dolor sit",
-      "year": "2023",
-      "location": "Faisalabad"
-    },
-    {
-      "id": 11,
-      "category": "Interior",
-      "title": "LIVING",
-      "images": [
-        "INTERIOR/LIVING/img1.webp",
-        "INTERIOR/LIVING/img2.webp",
-        "INTERIOR/LIVING/img3.webp",
-        "INTERIOR/LIVING/img4.webp"
-      ],
-      "Theme": "Neo-Classical",
-      "description": "Lorem ipsum, dolor sit",
-      "year": "2023",
-      "location": "Faisalabad"
-    },
-    {
-      "id": 12,
-      "category": "Interior",
-      "title": "MAJLIS",
-      "images": [
-        "INTERIOR/MAJLIS/img1.webp",
-        "INTERIOR/MAJLIS/img2.webp"
-      ],
-      "Theme": "Neo-Classical",
-      "description": "Lorem ipsum, dolor sit",
-      "year": "2023",
-      "location": "Faisalabad"
-    },
-    {
-      "id": 13,
-      "category": "Interior",
-      "title": "MAZHAR_SHAFI_TEXTILE",
-      "images": [
-        "INTERIOR/MAZHAR_SHAFI_TEXTILE/img1.webp",
-        "INTERIOR/MAZHAR_SHAFI_TEXTILE/img2.webp",
-        "INTERIOR/MAZHAR_SHAFI_TEXTILE/img3.webp"
-      ],
-      "Theme": "Neo-Classical",
-      "description": "Lorem ipsum, dolor sit",
-      "year": "2023",
-      "location": "Faisalabad"
-    },
-    {
-      "id": 14,
-      "category": "Interior",
-      "title": "SERVICE_SHOES",
-      "images": [
-        "INTERIOR/SERVICE_SHOES/img1.webp",
-        "INTERIOR/SERVICE_SHOES/img2.webp",
-        "INTERIOR/SERVICE_SHOES/img3.webp",
-        "INTERIOR/SERVICE_SHOES/img4.webp"
-      ],
-      "Theme": "Neo-Classical",
-      "description": "Lorem ipsum, dolor sit",
-      "year": "2023",
-      "location": "Faisalabad"
-    },
-    {
-      "id": 15,
-      "category": "Interior",
-      "title": "SHOE PLANET_LAHORE",
-      "images": [
-        "INTERIOR/SHOE PLANET_LAHORE/img1.webp",
-        "INTERIOR/SHOE PLANET_LAHORE/img2.webp"
-      ],
-      "Theme": "Neo-Classical",
-      "description": "Lorem ipsum, dolor sit",
-      "year": "2023",
-      "location": "Faisalabad"
-    },
-    {
-      "id": 16,
-      "category": "Interior",
-      "title": "TURKISH_BATH",
-      "images": [
-        "INTERIOR/TURKISH_BATH/img1.webp",
-        "INTERIOR/TURKISH_BATH/img2.webp"
-      ],
-      "Theme": "Neo-Classical",
-      "description": "Lorem ipsum, dolor sit",
-      "year": "2023",
-      "location": "Faisalabad"
-    },
-    {
-      "id": 17,
-      "category": "Architecture",
-      "title": "Project1",
-      "images": [
-        "ARCHITECTURE/Project1/img1.webp",
-        "ARCHITECTURE/Project1/img2.webp"
-      ],
-      "Theme": "Neo-Classical",
-      "description": "Lorem ipsum, dolor sit",
-      "year": "2023",
-      "location": "Faisalabad"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "category": "Interior",
+    "title": "LIVING ROOM",
+    "images": [
+      {
+        "src": "INTERIOR/FAISALABAD1/img1.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD1/img2.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD1/img3.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD1/img4.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD1/img5.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD1/img6.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD1/img7.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD1/img8.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD1/img9.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD1/img10.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD1/img11.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD1/img12.webp",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "Theme": "Neo-Classical",
+    "description": "Lorem ipsum, dolor sit",
+    "year": "2023",
+    "location": "Faisalabad"
+  },
+  {
+    "id": 2,
+    "category": "Interior",
+    "title": "LIVING ROOM",
+    "images": [
+      {
+        "src": "INTERIOR/FAISALABAD2/img1.webp",
+        "width": 800,  
+        "height": 600  
+      },
+      {
+        "src": "INTERIOR/FAISALABAD2/img2.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD2/img3.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD2/img4.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD2/img5.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD2/img6.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD2/img7.webp",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "Theme": "Modern",
+    "description": "Lorem ipsum, dolor sit",
+    "year": "2023",
+    "location": "Faisalabad"
+  },
+  {
+    "id": 3,
+    "category": "Interior",
+    "title": "BED ROOM",
+    "images": [
+      {
+        "src": "INTERIOR/FAISALABAD3/img1.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD3/img2.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD3/img3.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD3/img4.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD3/img5.webp",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "Theme": "Minimalistic",
+    "description": "Lorem ipsum, dolor sit",
+    "year": "2023",
+    "location": "Faisalabad"
+  },
+  {
+    "id": 4,
+    "category": "Interior",
+    "title": "ENTRANCE LOBBY",
+    "images": [
+      {
+        "src": "INTERIOR/FAISALABAD4/img1.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD4/img2.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD4/img3.webp",
+        "width": 1600,
+        "height": 1333
+      },
+      {
+        "src": "INTERIOR/FAISALABAD4/img4.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD4/img5.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD4/img6.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD4/img7.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD4/img8.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD4/img9.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD4/img10.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD4/img11.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD4/img12.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD4/img13.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD4/img14.webp",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "Theme": "Neo-Classical",
+    "description": "Lorem ipsum, dolor sit",
+    "year": "2023",
+    "location": "Faisalabad"
+  },
+  {
+    "id": 5,
+    "category": "Interior",
+    "title": "BED ROOM",
+    "images": [
+      {
+        "src": "INTERIOR/FAISALABAD5/img1.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD5/img2.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD5/img3.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD5/img4.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/FAISALABAD5/img5.webp",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "Theme": "Modern",
+    "description": "Lorem ipsum, dolor sit",
+    "year": "2023",
+    "location": "Faisalabad"
+  },  
+  {
+    "id": 6,
+    "category": "Interior",
+    "title": "TRAINING HALL(INTERLOOP) ",
+    "images": [
+      {
+        "src": "INTERIOR/INTERLOOP_HALL/img1.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/INTERLOOP_HALL/img2.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/INTERLOOP_HALL/img3.webp",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "Theme": "Minimalistic",
+    "description": "Lorem ipsum, dolor sit",
+    "year": "2023",
+    "location": "Lahore"
+  },
+  {
+    "id": 7,
+    "category": "Interior",
+    "title": "MEETING ROOM(INTERLOOP)",
+    "images": [
+      {
+        "src": "INTERIOR/INTERLOOP_MEETING/img1.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/INTERLOOP_MEETING/img2.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/INTERLOOP_MEETING/img3.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/INTERLOOP_MEETING/img4.webp",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "Theme": "Minimalistic",
+    "description": "Lorem ipsum, dolor sit",
+    "year": "2023",
+    "location": "Lahore"
+  },
+  {
+    "id": 8,
+    "category": "Interior",
+    "title": "BED ROOM",
+    "images": [
+      {
+        "src": "INTERIOR/IZHAR_DIRECTOR/img1.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/IZHAR_DIRECTOR/img2.webp",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "Theme": "Modern",
+    "description": "Lorem ipsum, dolor sit",
+    "year": "2023",
+    "location": "Lahore"
+  },
+  {
+    "id": 9,
+    "category": "Interior",
+    "title": "KITCHEN",
+    "images": [
+      {
+        "src": "INTERIOR/KIT2/img1.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/KIT2/img2.webp",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "Theme": "Neo-Classical",
+    "description": "Neo-Classical",
+    "year": "2023",
+    "location": "Faisalabad"
+  },
+  {
+    "id": 10,
+    "category": "Interior",
+    "title": "KITCHEN",
+    "images": [
+      {
+        "src": "INTERIOR/KITCHEN/img1.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/KITCHEN/img2.webp",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "Theme": "Neo-Classical",
+    "description": "Lorem ipsum, dolor sit",
+    "year": "2023",
+    "location": "Faisalabad"
+  },  
+  {
+    "id": 11,
+    "category": "Interior",
+    "title": "LIVING",
+    "images": [
+      {
+        "src": "INTERIOR/LIVING/img1.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/LIVING/img2.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/LIVING/img3.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/LIVING/img4.webp",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "Theme": "Neo-Classical",
+    "description": "Lorem ipsum, dolor sit",
+    "year": "2023",
+    "location": "Faisalabad"
+  },
+  {
+    "id": 12,
+    "category": "Interior",
+    "title": "MAJLIS",
+    "images": [
+      {
+        "src": "INTERIOR/MAJLIS/img1.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/MAJLIS/img2.webp",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "Theme": "Neo-Classical",
+    "description": "Lorem ipsum, dolor sit",
+    "year": "2023",
+    "location": "Faisalabad"
+  },
+  {
+    "id": 13,
+    "category": "Interior",
+    "title": "MAZHAR_SHAFI_TEXTILE",
+    "images": [
+      {
+        "src": "INTERIOR/MAZHAR_SHAFI_TEXTILE/img1.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/MAZHAR_SHAFI_TEXTILE/img2.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/MAZHAR_SHAFI_TEXTILE/img3.webp",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "Theme": "Neo-Classical",
+    "description": "Lorem ipsum, dolor sit",
+    "year": "2023",
+    "location": "Faisalabad"
+  },
+  {
+    "id": 14,
+    "category": "Interior",
+    "title": "SERVICE_SHOES",
+    "images": [
+      {
+        "src": "INTERIOR/SERVICE_SHOES/img1.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/SERVICE_SHOES/img2.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/SERVICE_SHOES/img3.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/SERVICE_SHOES/img4.webp",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "Theme": "Neo-Classical",
+    "description": "Lorem ipsum, dolor sit",
+    "year": "2023",
+    "location": "Faisalabad"
+  },
+  {
+    "id": 15,
+    "category": "Interior",
+    "title": "SHOE PLANET_LAHORE",
+    "images": [
+      {
+        "src": "INTERIOR/SHOE PLANET_LAHORE/img1.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/SHOE PLANET_LAHORE/img2.webp",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "Theme": "Neo-Classical",
+    "description": "Lorem ipsum, dolor sit",
+    "year": "2023",
+    "location": "Faisalabad"
+  },
+  {
+    "id": 16,
+    "category": "Interior",
+    "title": "TURKISH_BATH",
+    "images": [
+      {
+        "src": "INTERIOR/TURKISH_BATH/img1.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "INTERIOR/TURKISH_BATH/img2.webp",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "Theme": "Neo-Classical",
+    "description": "Lorem ipsum, dolor sit",
+    "year": "2023",
+    "location": "Faisalabad"
+  },
+  {
+    "id": 17,
+    "category": "Architecture",
+    "title": "Project1",
+    "images": [
+      {
+        "src": "ARCHITECTURE/Project1/img1.webp",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "ARCHITECTURE/Project1/img2.webp",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "Theme": "Neo-Classical",
+    "description": "Lorem ipsum, dolor sit",
+    "year": "2023",
+    "location": "Faisalabad"
+  }  
+]
