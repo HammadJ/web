@@ -8,9 +8,15 @@ Image
 
 const Portfolio = () => {
   const [activeTab, setActiveTab] = useState('All');
-  const tabs = ['All', 'Architecture', 'Interior', 'CONSTRUCTION', 'FURNITURE'];
+  const [visibleItems, setVisibleItems] = useState(10); // Number of initially visible items
+  const tabs = ['All', 'Architecture', 'Interior', 'Construction', 'Furniture'];
 
   const filteredItems = activeTab === 'All' ? portfolioItems : portfolioItems.filter(item => item.category === activeTab);
+
+  const loadMoreItems = () => {
+    setVisibleItems(prevVisibleItems => prevVisibleItems + 10); // Increase the number of visible items by 10
+  };
+
 
   return (
     <section id="portfolio" className="portfolio">
@@ -40,17 +46,11 @@ const Portfolio = () => {
         {/* End Portfolio Filters */}
 
         <div className="row gy-4">
-
-          <ResponsiveMasonry
-            columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
-          >
-
-            <Masonry
-              columnsCount={3}
-              gutter="1.5rem"
-            >
-              {filteredItems.map(item => (
+          <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
+            <Masonry columnsCount={3} gutter="1.5rem">
+              {filteredItems.slice(0, visibleItems).map(item => (
                 <div key={item.id} className="portfolio-item">
+
                   <Carousel
                     showArrows={true}
                     showThumbs={false}
@@ -71,6 +71,8 @@ const Portfolio = () => {
                           height={imageUrl.height}
                           width={imageUrl.width}
                           responsive="true"
+                          priority={index === 0}
+                          as="image"
                         />
                       </div>
                     ))}
@@ -89,6 +91,12 @@ const Portfolio = () => {
           </ResponsiveMasonry>
         </div>
         {/* End Portfolio Container */}
+        {/* Load More Button */}
+        {visibleItems < filteredItems.length && (
+          <div className="text-center mt-4">
+            <button onClick={loadMoreItems} className="btn-loadMore">Load More</button>
+          </div>
+        )}
 
       </div>
     </section >

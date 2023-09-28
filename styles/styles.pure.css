@@ -3429,3 +3429,18 @@ section {
     --nav-hover-color: #d83535;
   }
   
+  @media (max-width: 768px) {
+    .carousel-arrow {
+        display: none !important; /* Use !important to ensure this style is applied */
+    }
+}
+
+.btn-loadMore {
+    color: var(--contrast-color);
+    background: var(--primary-color);
+    font-size: 14px;
+    padding: 8px 26px;
+    margin: 0;
+    border-radius: 4px;
+    border: none;
+}

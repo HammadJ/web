@@ -6,7 +6,7 @@ const Header = () => {
 		<header id="header" className="header fixed-top d-flex align-items-center">
 			<div className="container-fluid d-flex align-items-center justify-content-between">
 				<Link href="/" className="logo d-flex align-items-center me-auto me-xl-0">
-					<h1>Interio Arch</h1>
+					<h1>INTERIO ARCH</h1>
 				</Link>
 				{/* Nav Menu */}
 				<nav id="navmenu" className="navmenu">

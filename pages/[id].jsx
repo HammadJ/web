@@ -46,8 +46,8 @@ const PortfolioDetails = ({ portfolioItem }) => {
 
                 {/* Portfolio-details Section - Portfolio Details Page */}
                 <section id="portfolio-details" className="portfolio-details">
-                    <div className="container" data-aos="fade-up">
-                        <div className="align-items-center ">
+                    <div className="container" data-aos="fade-up" >
+                        <div className="align-items-center" style={{ position: 'relative' }}>
                             <Carousel
                                 showArrows={true}
                                 showThumbs={false}
@@ -56,18 +56,57 @@ const PortfolioDetails = ({ portfolioItem }) => {
                                 autoPlay={true}
                                 interval={3000}
                                 stopOnHover={true}
+                                renderArrowPrev={(onClickHandler, hasPrev, label) =>
+                                    hasPrev && (
+                                        <div
+                                            type="button"
+                                            onClick={onClickHandler}
+                                            title={label}
+                                            style={{
+                                                position: 'absolute',
+                                                top: '50%',
+                                                left: '0',
+                                                transform: 'translateY(-50%)',
+                                                zIndex: '1',
+                                            }}
+                                            className="carousel-arrow"
+                                        >
+                                            &lt;
+                                        </div>
+                                    )
+                                }
+                                renderArrowNext={(onClickHandler, hasNext, label) =>
+                                    hasNext && (
+                                        <div
+                                            type="button"
+                                            onClick={onClickHandler}
+                                            title={label}
+                                            style={{
+                                                position: 'absolute',
+                                                top: '50%',
+                                                right: '0',
+                                                transform: 'translateY(-50%)',
+                                                zIndex: '1',
+                                            }}
+                                            className="carousel-arrow"
+                                        >
+                                            &gt;
+                                        </div>
+                                    )
+                                }
                             >
                                 {portfolioItem.images.map((image, index) => (
-                                    <div key={index} >
+                                    <div key={index}>
                                         <Image
                                             src={`/assets/img/${image.src}`}
-                                            className="img-fluid"
                                             alt=""
                                             data-aos="fade-up"
                                             data-aos-delay="200"
+                                            style={{ height: '85vh', width: 'auto' }}
                                             height={image.height}
-                                            width={image.width}
                                             responsive="true"
+                                            width={image.width}
+                                            priority={index === 0}
                                         />
                                     </div>
                                 ))}
