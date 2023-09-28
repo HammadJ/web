@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Portfolio from './Portfolio'
+import Img1 from '../public/assets/img/hero-bg.webp'
 
 const Main = () => {
     return (
@@ -8,7 +9,7 @@ const Main = () => {
             <main id="main">
                 {/* Hero Section - Home Page */}
                 <section id="hero" className="hero">
-                    <Image src="/assets/img/hero-bg.webp" alt="bg img" data-aos="fade-in" height={752} width={1600} responsive="true" priority />
+                    <Image src={Img1} alt="bg img" data-aos="fade-in"  priority />
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-10">

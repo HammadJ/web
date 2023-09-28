@@ -4,7 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // Import carousel styles
 import portfolioItems from '../data/portfolioData.json';
 import Image from 'next/image';
-Image
+
 
 const Portfolio = () => {
   const [activeTab, setActiveTab] = useState('All');
