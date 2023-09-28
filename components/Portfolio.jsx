@@ -71,7 +71,6 @@ const Portfolio = () => {
                           height={imageUrl.height}
                           width={imageUrl.width}
                           responsive="true"
-                          priority={index === 0}
                           as="image"
                         />
                       </div>
