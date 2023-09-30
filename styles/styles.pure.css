@@ -3168,6 +3168,10 @@ section {
     .hero p {
         font-size: 18px;
     }
+    .hero img {
+        width: 100%; /* Set the width to 100% for mobile */
+        height: 100vh; /* Automatically adjust the height */
+    }
 }
 .clients {
     padding: 10px 0;

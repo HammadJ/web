@@ -66,7 +66,7 @@
       }
     ],
     "Theme": "Neo-Classical",
-    "description": "Lorem ipsum, dolor sit",
+    "description": "Step into a neoclassical oasis with our beige-toned living room, where timeless elegance meets comfort. The warm, muted palette evokes a sense of serenity and sophistication, creating a harmonious retreat for discerning tastes.",
     "year": "2023",
     "location": "Faisalabad"
   },
@@ -112,48 +112,12 @@
       }
     ],
     "Theme": "Modern",
-    "description": "Lorem ipsum, dolor sit",
+    "description": "Experience the epitome of modern luxury in our grey and blue-themed living room, where sleek design seamlessly blends with soothing hues to create a chic and inviting space for contemporary living.",
     "year": "2023",
     "location": "Faisalabad"
   },
   {
     "id": 3,
-    "category": "Interior",
-    "title": "BED ROOM",
-    "images": [
-      {
-        "src": "INTERIOR/FAISALABAD3/img1.webp",
-        "width": 1200,
-        "height": 1000
-      },
-      {
-        "src": "INTERIOR/FAISALABAD3/img2.webp",
-        "width": 2000,
-        "height": 900
-      },
-      {
-        "src": "INTERIOR/FAISALABAD3/img3.webp",
-        "width": 1200,
-        "height": 1200
-      },
-      {
-        "src": "INTERIOR/FAISALABAD3/img4.webp",
-        "width": 2000,
-        "height": 1000
-      },
-      {
-        "src": "INTERIOR/FAISALABAD3/img5.webp",
-        "width": 1500,
-        "height": 900
-      }
-    ],
-    "Theme": "Minimalistic",
-    "description": "Lorem ipsum, dolor sit",
-    "year": "2023",
-    "location": "Faisalabad"
-  },
-  {
-    "id": 4,
     "category": "Interior",
     "title": "ENTRANCE LOBBY",
     "images": [
@@ -229,12 +193,136 @@
       }
     ],
     "Theme": "Neo-Classical",
-    "description": "Lorem ipsum, dolor sit",
+    "description": "Welcome guests to an opulent blend of neoclassical and classical design in our entrance lobby, adorned with soothing beige tones. This timeless palette exudes grandeur and serenity, setting the stage for an elegant and welcoming first impression.",
+    "year": "2023",
+    "location": "Faisalabad"
+  },
+  {
+    "id": 4,
+    "category": "Interior",
+    "title": "BED ROOM",
+    "images": [
+      {
+        "src": "INTERIOR/FAISALABAD3/img1.webp",
+        "width": 1200,
+        "height": 1000
+      },
+      {
+        "src": "INTERIOR/FAISALABAD3/img2.webp",
+        "width": 2000,
+        "height": 900
+      },
+      {
+        "src": "INTERIOR/FAISALABAD3/img3.webp",
+        "width": 1200,
+        "height": 1200
+      },
+      {
+        "src": "INTERIOR/FAISALABAD3/img4.webp",
+        "width": 2000,
+        "height": 1000
+      },
+      {
+        "src": "INTERIOR/FAISALABAD3/img5.webp",
+        "width": 1500,
+        "height": 900
+      }
+    ],
+    "Theme": "Minimalistic",
+    "description": "Elevate your bedroom to a modern masterpiece with rich brown and mustard tones. This harmonious fusion of earthy warmth and contemporary design promises a cozy yet stylish retreat for a restful night's sleep.",
     "year": "2023",
     "location": "Faisalabad"
   },
   {
     "id": 5,
+    "category": "Interior",
+    "title": "MAJLIS",
+    "images": [
+      {
+        "src": "INTERIOR/MAJLIS/img1.webp",
+        "width": 1753,
+        "height": 1240
+      },
+      {
+        "src": "INTERIOR/MAJLIS/img2.webp",
+        "width": 1753,
+        "height": 1240
+      }
+    ],
+    "Theme": "Islamic",
+    "description": "Experience the timeless elegance of an Islamic-style majlis infused with intricate woodwork, where rich cultural heritage meets contemporary comfort. Our space embodies the spirit of hospitality, offering a refined setting for cherished gatherings and meaningful conversations.",
+    "year": "2020",
+    "location": "Lahore"
+  },
+  {
+    "id": 6,
+    "category": "Furniture",
+    "title": "Chairs",
+    "images": [
+      {
+        "src": "Furniture/Chairs/img1.webp",
+        "width": 1168,
+        "height": 1205
+      },
+      {
+        "src": "Furniture/Chairs/img2.webp",
+        "width": 1222,
+        "height": 1097
+      },
+      {
+        "src": "Furniture/Chairs/img3.webp",
+        "width": 1187,
+        "height": 1416
+      }
+      
+    ]
+  },
+  {
+    "id": 7,
+    "category": "Furniture",
+    "title": "Sofas",
+    "images": [
+      {
+        "src": "Furniture/Sofas/img1.webp",
+        "width": 1229,
+        "height": 1220
+      },
+      {
+        "src": "Furniture/Sofas/img2.webp",
+        "width": 1248,
+        "height": 1427
+      },
+      {
+        "src": "Furniture/Sofas/img3.webp",
+        "width": 1250,
+        "height": 1551
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "category": "Furniture",
+    "title": "Bed",
+    "images": [
+      {
+        "src": "Furniture/Bed/img1.webp",
+        "width": 564,
+        "height": 705
+      },
+      {
+        "src": "Furniture/Bed/img2.webp",
+        "width": 564,
+        "height": 668
+      },
+      {
+        "src": "Furniture/Bed/img3.webp",
+        "width": 564,
+        "height": 564
+      }
+    ]
+  },
+  {
+    "id": 9,
     "category": "Interior",
     "title": "BED ROOM",
     "images": [
@@ -265,12 +353,12 @@
       }
     ],
     "Theme": "Modern",
-    "description": "Lorem ipsum, dolor sit",
+    "description": "Indulge in the pure elegance of a modern bedroom enveloped in pristine white tones. Our minimalist design approach creates a tranquil sanctuary where simplicity meets sophistication, ensuring restful nights and revitalizing mornings.",
     "year": "2023",
     "location": "Faisalabad"
   },  
   {
-    "id": 6,
+    "id": 10,
     "category": "Interior",
     "title": "TRAINING HALL(INTERLOOP) ",
     "images": [
@@ -291,12 +379,12 @@
       }
     ],
     "Theme": "Minimalistic",
-    "description": "Lorem ipsum, dolor sit",
+    "description": "Experience the essence of focus and productivity in our minimalistic training room, adorned in calming blue and pristine white. This serene environment fosters concentration and clarity, empowering you to achieve your training goals with a sense of tranquillity.",
     "year": "2023",
     "location": "Lahore"
   },
   {
-    "id": 7,
+    "id": 11,
     "category": "Interior",
     "title": "MEETING ROOM(INTERLOOP)",
     "images": [
@@ -322,12 +410,12 @@
       }
     ],
     "Theme": "Minimalistic",
-    "description": "Lorem ipsum, dolor sit",
+    "description": "Elevate your meetings in our sleek, minimalistic meeting room, where clean lines and uncluttered design foster creativity and productivity. Experience a distraction-free space that empowers your team to collaborate effectively and make impactful decisions.",
     "year": "2023",
     "location": "Lahore"
   },
   {
-    "id": 8,
+    "id": 12,
     "category": "Interior",
     "title": "BED ROOM",
     "images": [
@@ -343,12 +431,12 @@
       }
     ],
     "Theme": "Modern",
-    "description": "Lorem ipsum, dolor sit",
+    "description": "Create your dream modern bedroom infused with the calming hues of green, the soft allure of pink, and the sophistication of grey tones, tailored to your unique style. Our design effortlessly balances serenity and vibrancy, ensuring a space that reflects our client’s personal taste and promotes relaxation.",
     "year": "2023",
     "location": "Lahore"
   },
   {
-    "id": 9,
+    "id": 13,
     "category": "Interior",
     "title": "KITCHEN",
     "images": [
@@ -361,36 +449,25 @@
         "src": "INTERIOR/KIT2/img2.webp",
         "width": 1753,
         "height": 1240
-      }
-    ],
-    "Theme": "Neo-Classical",
-    "description": "Neo-Classical",
-    "year": "2023",
-    "location": "Faisalabad"
-  },
-  {
-    "id": 10,
-    "category": "Interior",
-    "title": "KITCHEN",
-    "images": [
+      },
       {
-        "src": "INTERIOR/KITCHEN/img1.webp",
+        "src": "INTERIOR/KIT2/img3.webp",
         "width": 1753,
         "height": 1240
       },
       {
-        "src": "INTERIOR/KITCHEN/img2.webp",
+        "src": "INTERIOR/KIT2/img4.webp",
         "width": 1753,
         "height": 1240
       }
     ],
-    "Theme": "Neo-Classical",
-    "description": "Lorem ipsum, dolor sit",
-    "year": "2023",
-    "location": "Faisalabad"
+    "Theme": "Modern",
+    "description": "Experience culinary sophistication in our modern kitchen, where the timeless contrast of white and black tones defines a space that's both sleek and inviting. Unleash your culinary creativity in an environment that seamlessly blends elegance with functionality.",
+    "year": "2018",
+    "location": "Lahore"
   },  
   {
-    "id": 11,
+    "id": 14,
     "category": "Interior",
     "title": "LIVING",
     "images": [
@@ -408,41 +485,15 @@
         "src": "INTERIOR/LIVING/img3.webp",
         "width": 1753,
         "height": 1240
-      },
-      {
-        "src": "INTERIOR/LIVING/img4.webp",
-        "width": 1753,
-        "height": 1240
       }
     ],
-    "Theme": "Neo-Classical",
-    "description": "Lorem ipsum, dolor sit",
-    "year": "2023",
-    "location": "Faisalabad"
+    "Theme": "Minimalistic",
+    "description": "Discover the charm of simplicity in our living room adorned with warm wood accents. Embrace the inviting, uncluttered design that fosters a cozy and serene atmosphere, perfect for creating lasting memories with family and friends.",
+    "year": "2017",
+    "location": "Lahore"
   },
   {
-    "id": 12,
-    "category": "Interior",
-    "title": "MAJLIS",
-    "images": [
-      {
-        "src": "INTERIOR/MAJLIS/img1.webp",
-        "width": 1753,
-        "height": 1240
-      },
-      {
-        "src": "INTERIOR/MAJLIS/img2.webp",
-        "width": 1753,
-        "height": 1240
-      }
-    ],
-    "Theme": "Neo-Classical",
-    "description": "Lorem ipsum, dolor sit",
-    "year": "2023",
-    "location": "Faisalabad"
-  },
-  {
-    "id": 13,
+    "id": 15,
     "category": "Interior",
     "title": "MAZHAR_SHAFI_TEXTILE",
     "images": [
@@ -462,15 +513,15 @@
         "height": 2000
       }
     ],
-    "Theme": "Neo-Classical",
-    "description": "Lorem ipsum, dolor sit",
-    "year": "2023",
-    "location": "Faisalabad"
+    "Theme": "Modern",
+    "description": "Experience comfort and style in our meticulously designed seating space at Mazhar Shafi Textile. Our simple yet elegant space is perfect for relaxing and discussing your textile needs with a touch of sophistication.",
+    "year": "2022",
+    "location": "Lahore"
   },
   {
-    "id": 14,
+    "id": 16,
     "category": "Interior",
-    "title": "SERVICE_SHOES",
+    "title": "SERVICE SHOES",
     "images": [
       {
         "src": "INTERIOR/SERVICE_SHOES/img1.webp",
@@ -493,13 +544,13 @@
         "height": 1080
       }
     ],
-    "Theme": "Neo-Classical",
-    "description": "Lorem ipsum, dolor sit",
-    "year": "2023",
-    "location": "Faisalabad"
+    "Theme": "Minimalistic",
+    "description": "Discover the exceptional design of the Service Shoes Outlet, where form meets function in a harmonious blend of aesthetics and practicality. Our thoughtfully curated space complements the quality and style of our footwear, providing a shopping experience that's both visually pleasing and user-friendly.",
+    "year": "2018",
+    "location": "Lahore"
   },
   {
-    "id": 15,
+    "id": 17,
     "category": "Interior",
     "title": "SHOE PLANET_LAHORE",
     "images": [
@@ -514,15 +565,15 @@
         "height": 1275
       }
     ],
-    "Theme": "Neo-Classical",
-    "description": "Lorem ipsum, dolor sit",
-    "year": "2023",
-    "location": "Faisalabad"
+    "Theme": "Minimalistic",
+    "description": "Immerse yourself in the innovative design of Shoe Planet Outlet, where contemporary aesthetics meet functional elegance. Our store's layout and ambiance perfectly mirror the style and comfort of our footwear collection, ensuring a delightful shopping experience for every visitor.",
+    "year": "2018",
+    "location": "Lahore"
   },
   {
-    "id": 16,
+    "id": 18,
     "category": "Interior",
-    "title": "TURKISH_BATH",
+    "title": "TURKISH BATH",
     "images": [
       {
         "src": "INTERIOR/TURKISH_BATH/img1.webp",
@@ -535,15 +586,15 @@
         "height": 1240
       }
     ],
-    "Theme": "Neo-Classical",
-    "description": "Lorem ipsum, dolor sit",
-    "year": "2023",
-    "location": "Faisalabad"
+    "Theme": "Turkish",
+    "description": "Experience the epitome of relaxation in our Turkish bath, where serene white tones create an oasis of tranquillity. Immerse yourself in timeless luxury as you rejuvenate your senses in a space designed for ultimate comfort and serenity.",
+    "year": "2021",
+    "location": "Lahore"
   },
   {
-    "id": 17,
+    "id": 19,
     "category": "Architecture",
-    "title": "Project1",
+    "title": "10 Marla",
     "images": [
       {
         "src": "ARCHITECTURE/Project1/img1.webp",
@@ -556,9 +607,9 @@
         "height": 850
       }
     ],
-    "Theme": "Neo-Classical",
-    "description": "Lorem ipsum, dolor sit",
-    "year": "2023",
-    "location": "Faisalabad"
-  }  
+    "Theme": "Modern",
+    "description": "Our modern house elevation design harmoniously blends crisp white accents with warm wooden tones, exuding contemporary elegance. This captivating combination transforms your home's facade into a timeless masterpiece that seamlessly integrates with nature's beauty.",
+    "year": "2018",
+    "location": "Lahore"
+  } 
 ]

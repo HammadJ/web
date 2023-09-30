@@ -8,7 +8,7 @@ import Image from 'next/image';
 
 const Portfolio = () => {
   const [activeTab, setActiveTab] = useState('All');
-  const [visibleItems, setVisibleItems] = useState(10); // Number of initially visible items
+  const [visibleItems, setVisibleItems] = useState(8); // Number of initially visible items
   const tabs = ['All', 'Architecture', 'Interior', 'Construction', 'Furniture'];
 
   const filteredItems = activeTab === 'All' ? portfolioItems : portfolioItems.filter(item => item.category === activeTab);

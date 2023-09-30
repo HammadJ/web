@@ -1,15 +1,31 @@
 import Image from 'next/image'
-import React from 'react'
+import React, { useState } from 'react'
 import Portfolio from './Portfolio'
-import Img1 from '../public/assets/img/hero-bg.webp'
+
 
 const Main = () => {
+    const [showModal, setShowModal] = useState(false);
+    const [email, setEmail] = useState('');
+
+    const handleSubmit = (e) => {
+        e.preventDefault(); // Prevent the default form submission behavior
+
+        // Perform your form submission logic here (e.g., send the email)
+
+        // Show the modal popup on form submit
+        setShowModal(true);
+    };
+
+    const closeModal = () => {
+        setShowModal(false);
+    };
+
     return (
         <>
             <main id="main">
                 {/* Hero Section - Home Page */}
                 <section id="hero" className="hero">
-                    <Image src={Img1} alt="bg img" data-aos="fade-in"  priority />
+                    <Image src="/assets/img/hero-bg.webp" alt="bg img" data-aos="fade-in" height={752} width={1600} responsive="true" priority />
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-10">
@@ -25,11 +41,14 @@ const Main = () => {
                                     className="sign-up-form d-flex"
                                     data-aos="fade-up"
                                     data-aos-delay={300}
+                                    onSubmit={handleSubmit}
                                 >
                                     <input
-                                        type="text"
+                                        type="email"
                                         className="form-control"
                                         placeholder="Enter email address"
+                                        value={email}
+                                        onChange={(e) => setEmail(e.target.value)}
                                     />
                                     <input
                                         type="submit"
@@ -37,6 +56,58 @@ const Main = () => {
                                         defaultValue="Sign up"
                                     />
                                 </form>
+                                {showModal && (
+                                    <div className="modal">
+                                        <div className="modal-content">
+                                            <h2>Email Submitted Successfully</h2>
+                                            {/* Content for the popup screen */}
+                                            {/* Add your content here */}
+                                        </div>
+                                        <button className="modal-close" onClick={closeModal}>
+                                            Close
+                                        </button>
+                                    </div>
+                                )}
+
+                                <style jsx>{`
+                                  /* Styles for the modal overlay (background) */
+                                  .modal {
+                                    display: ${showModal ? 'block' : 'none'};
+                                    position: fixed;
+                                    top: 0;
+                                    left: 0;
+                                    width: 100%;
+                                    height: 100%;
+                                    background-color: rgba(0, 0, 0, 0.5);
+                                    backdrop-filter: blur(5px);
+                                    z-index: 1;
+                                    display: flex;
+                                    flex-direction: column; /* Ensure button is below content */
+                                    justify-content: center;
+                                    align-items: center;
+                                  }
+
+                                  /* Styles for the modal content */
+                                  .modal-content {
+                                    padding: 20px;
+                                    text-align: center;
+                                    margin-bottom: 20px; /* Add margin to separate content and button */
+                                  }
+
+                                  /* Style for the close button */
+                                  .modal-close {
+                                    background-color: #f44336;
+                                    color: white;
+                                    border: none;
+                                    padding: 10px 20px;
+                                    cursor: pointer;
+                                  }
+
+                                  /* Style for the close button on hover */
+                                  .modal-close:hover {
+                                    background-color: #d32f2f;
+                                  }
+                                `}</style>
                             </div>
                         </div>
                     </div>
