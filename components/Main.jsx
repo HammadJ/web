@@ -13,7 +13,8 @@ const Main = () => {
         // Perform your form submission logic here (e.g., send the email)
 
         // Show the modal popup on form submit
-        setShowModal(true);
+        if(email != '')
+            setShowModal(true);
     };
 
     const closeModal = () => {
