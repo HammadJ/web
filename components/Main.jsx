@@ -98,7 +98,7 @@ const Main = () => {
                                   /* Style for the close button */
                                   .modal-close {
                                     background-color: #f44336;
-                                    color: white;
+                                    color: #fff;
                                     border: none;
                                     padding: 10px 20px;
                                     cursor: pointer;

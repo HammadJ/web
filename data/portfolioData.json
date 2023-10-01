@@ -611,5 +611,17 @@
     "description": "Our modern house elevation design harmoniously blends crisp white accents with warm wooden tones, exuding contemporary elegance. This captivating combination transforms your home's facade into a timeless masterpiece that seamlessly integrates with nature's beauty.",
     "year": "2018",
     "location": "Lahore"
+  }, 
+  {
+    "id": 20,
+    "category": "Construction",
+    "title": "Construction",
+    "images": [
+      {
+        "src": "Construction/img1.webp",
+        "width": 404,
+        "height": 532
+      }
+    ]
   } 
 ]
