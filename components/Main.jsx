@@ -1,8 +1,9 @@
 import Image from 'next/image'
 import React, { useState } from 'react'
-import Portfolio from './Portfolio'
-
-
+// import Portfolio from './Portfolio'
+import dynamic from 'next/dynamic'
+ 
+ 
 const Main = () => {
     const [showModal, setShowModal] = useState(false);
     const [email, setEmail] = useState('');
@@ -21,12 +22,17 @@ const Main = () => {
         setShowModal(false);
     };
 
+    const DynamicPortfolio = dynamic(() => import('./Portfolio'), {
+        loading: () => <p>Loading...</p>,
+      })
+      
+
     return (
         <>
             <main id="main">
                 {/* Hero Section - Home Page */}
                 <section id="hero" className="hero">
-                    <Image src="/assets/img/hero-bg.webp" alt="bg img" data-aos="fade-in" height={752} width={1600} responsive="true" priority />
+                    <Image src="/assets/img/hero-bg.webp" alt="bg img" data-aos="fade-in" height={1170} width={2500} responsive="true" priority />
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-10">
@@ -206,7 +212,7 @@ const Main = () => {
                 </section>
                 {/* End About Section */}
                 {/* Portfolio Section - Home Page */}
-                <Portfolio />
+                <DynamicPortfolio />
                 {/* End Portfolio Section */}
 
                 {/* Contact Section - Home Page */}
